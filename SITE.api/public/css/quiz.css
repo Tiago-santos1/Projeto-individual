@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    background-image: url('../assets/imgs/sala-almoço.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#jogo {
+    display: flex;
+    flex-direction: column;
+}
+
+#pontuacao{
+    display: flex;
+}
+#quiz-wrapper {
+    #quiz-wrapper {
+    background: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 25px; 
+    padding: 25px;
+    width: 90%;
+    max-width: 480px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+}
+
+
+#pontuacaoEJogo {
+    color: #000;
+    background: rgba(220, 220, 220, 0.4);
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    margin-bottom: 15px;
+}
+
+
+#infoQuestao,
+#perguntaDaQuestaoAtual {
+    padding: 8px;
+    margin: 10px 0;
+}
+
+#spanQuestaoExibida {
+    font-size: 1.3em;
+    font-weight: bold;
+    display: block;
+    margin: 12px 0;
+}
+
+
+#opcoes {
+    text-align: left;
+    width: 90%;
+    margin: 15px auto 20px auto;
+}
+
+#opcoes span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#opcoes span:hover {
+    background: #f1f1f1;
+    border-color: #666;
+}
+
+
+
+#botoes button,
+#btnIniciarQuiz {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.95em;
+    margin: 6px;
+    transition: 0.2s;
+}
+
+#botoes button:hover,
+#btnIniciarQuiz:hover {
+    background-color: #0069d9;
+}
+
+#botoes button:disabled {
+    background-color: #bbb;
+    color: #666;
+    cursor: not-allowed;
+}
+
+
+#botoes {
+    margin-top: 15px;
+}
+
+.button-estatiticas  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#button-estatiticas a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}

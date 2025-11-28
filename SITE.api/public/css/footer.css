@@ -1,0 +1,53 @@
+
+  .footer-banner {
+  align-items: center;
+  width: 100%;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Barlow', sans-serif;
+}
+
+
+.onu-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+  width: 30%;
+}
+
+.onu-box img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.onu-text {
+  font-size: 14px;
+  color: #ddd;
+  line-height: 1.4;
+}
+
+
+.footer-descrição {
+  text-align: center;
+  width: 20%;;
+  
+}
+
+  
+
+
+@media (max-width: 768px) {
+  .footer-banner {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .onu-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
